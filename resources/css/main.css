@@ -43,3 +43,12 @@ h3 {
   /*max-width: 300px;*/
   line-height: 0.4;
 }
+
+/* TEXT INPUT */
+input {
+  border-radius: 5px;
+  border: 1px solid #16064B;
+  background: #C4BBC9;
+  padding: 3px;
+  height: 15px;
+}
