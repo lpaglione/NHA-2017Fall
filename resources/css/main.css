@@ -1,0 +1,45 @@
+/*---------------------------------------->
+<!-- Laura Paglione (MENTOR)            -->
+<!-- NanoHacker Academy                 -->
+<!-- Fall 2017: Intro to APIs           -->
+<!-- September, 2017                    -->
+<!-- Introductory challenges - main.css -->
+<!--------------------------------------- */
+
+/* General Styling */
+body {
+  font-family: 'Pontano Sans', Helvetica, sans-serif;
+  color: #4C6700;
+  margin: 0px 15px 15px 15px;
+  font-size: 1em;
+}
+
+h1, h2, h3 {
+  /* font styling */
+  font-family: 'Chelsea Market', Gadget, sans-serif;
+  color: #16064B;
+}
+
+/* HEADERS */
+h1 {
+  background-color: #16064B;
+  color: #A596D6;
+  font-size: 2.5em;
+  text-transform: capitalize;
+  margin: 0px -15px -15px -15px;
+  padding: 50px 15px 25px 15px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 1.9em;
+  padding: 10px 0px 0px 0px;
+  line-height: 0.8;
+}
+
+h3 {
+  font-size: 1.4em;
+  /*padding: 10px 0px 0px 0px;*/
+  /*max-width: 300px;*/
+  line-height: 0.4;
+}
