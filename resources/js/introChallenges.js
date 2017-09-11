@@ -6,8 +6,8 @@
 
 //Challenge 3 code
 $("button#challenge3").click(() => {
-    let name = $("input#challenge3").val();
-    $("p#challenge3").html(`Nice to meet you, ${name}! `);
+  let name = $("input#challenge3").val();
+  $("p#challenge3").html(`Nice to meet you, ${name}! `);
 });
 
 //Challenge 4 code
