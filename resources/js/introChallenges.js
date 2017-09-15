@@ -51,3 +51,21 @@ $("div#challenge5predictions").append(`<table>
   <tr><td>myInt == myNumString?</td><td>${myInt == myNumString}</td></tr>
   <tr><td>myInt === myNumString?</td><td>${myInt === myNumString}</td></tr>
   </table>`);
+
+//Challenge 7 code
+$("button#challenge7").click(() => {
+  const number = parseInt($("input#challenge7Num").val());
+
+  // Check to make sure that the number is within a certain range
+  if(isNaN(number)) {
+    $("p#challenge7").html(`Sorry, you need to type in a number, please.`);
+  } else if (number > 10 || number < 1) {
+    $("p#challenge7").html(`Sorry, ${number} will not work. Please enter a number between 1 and 10.`);
+  } else {
+    $("p#challenge7").html(`Counting down from ${number}...`)
+    for (let i = number; i > 0; i--) {
+      $("p#challenge7").append(`<br/>${i}`);
+    }
+    $("p#challenge7").append(`<br/>BLAST OFF!`);
+  }
+});
